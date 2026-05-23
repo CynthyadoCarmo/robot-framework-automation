@@ -1,14 +1,20 @@
-# Robot Framework + Python
+# Robot Framework Automation
 
-Projeto de automação QA utilizando:
+Projeto de automação utilizando:
 
 - Robot Framework
 - Python
 - Selenium
 
-## Fluxos Automatizados
+## Cenários Automatizados
 
 - Cadastro
-- Login positivo
-- Login negativo
-- Checkout completo
+- Login Positivo
+- Login Negativo
+- Checkout E2E
+- Delete Account
+
+## Execução
+
+```bash
+python -m robot -d results tests/
